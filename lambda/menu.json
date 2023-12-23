@@ -1,0 +1,189 @@
+{
+    "menus": {
+        "2023-11-27": {
+            "Seezeit-Teller": {
+                "description": "Provenzalisches Ragout (Bio Rindfleisch, Tomate, Zucchini, Aubergine) mit Bio Vollkorn Penne dazu Rohkostsalat (Karotten, Zucchini, Rettich, Kräuterdressing)",
+                "price": {
+                    "Studierende": 3.50,
+                    "Mitarbeiter": 4.70,
+                    "Gäste": 6.70
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "34",
+                    "36"
+                ],
+                "kategorie": [
+                    "Bessere Tierhaltung",
+                    "Rind"
+                ]
+            },
+            "KombinierBar": {
+                "description": "Kürbis-Chiabratling mit Schnittlauchsauce",
+                "price": {
+                    "Studierende": 1.80,
+                    "Mitarbeiter": 2.60,
+                    "Gäste": 3.80
+                },
+                "inhaltsstoffe": [
+                    "25e",
+                    "33",
+                    "34"
+                ],
+                "kategorie": [
+                    "Vegan"
+                ]
+            },
+            "kriwerk": {
+                "description": "[kri]werk®",
+                "price": {
+                    "Studierende": 3.50,
+                    "Mitarbeiter": 3.90,
+                    "Gäste": 4.30
+                },
+                "inhaltsstoffe": [],
+                "kategorie": []
+            },
+            "Beilagen": {
+                "Description": [
+                    "würzige Backkartoffeln",
+                    "Bio Vollkorn Penne",
+                    "Karotten",
+                    "Blattsalat (Kraut, Radicchio) mit Frenchdressing",
+                    "Rohkostsalat (Karotten, Zucchini, Rettich, Kräuterdressing)",
+                    "Pfirsichjoghurt",
+                    "Waldbeerquark"
+                ],
+                "Price": {
+                    "Studierende": 0.80,
+                    "Mitarbeiter": 0.90,
+                    "Gäste": 1.00
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "11",
+                    "31",
+                    "33",
+                    "34",
+                    "36",
+                    "1"
+                ],
+                "kategorie": []
+            }
+        },
+        "2023-11-28": {
+            "Seezeit-Teller": {
+                "description": "Käsespätzle mit Schmelzzwiebeln dazu Tomatensalat mit Frühlingszwiebeln",
+                "price": {
+                    "Studierende": 3.50,
+                    "Mitarbeiter": 4.70,
+                    "Gäste": 6.70
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "25d",
+                    "28",
+                    "31",
+                    "36"
+                ],
+                "kategorie": [
+                    "Vegetarisch"
+                ]
+            },
+            "KombinierBar": {
+                "description": "Spanische Fleischbällchen \"Albondigas\" mit Paprika-Tomatensauce",
+                "price": {
+                    "Studierende": 1.90,
+                    "Mitarbeiter": 2.80,
+                    "Gäste": 4.20
+                },
+                "inhaltsstoffe": [
+                    "2",
+                    "3",
+                    "25a",
+                    "28",
+                    "19",
+                    "34",
+                    "36"
+                ],
+                "kategorie": [
+                    "Bessere Tierhaltung",
+                    "Geflügel"
+                ]
+            },
+            "Pasta": {
+                "Description": "Bio-Pasta mit Putenbruststreifen und Hartkäse-Sahne-Sauce",
+                "price": {
+                    "Groß": {
+                        "Studierende": 3.70,
+                        "Mitarbeiter": 4.10,
+                        "Gäste": 6.00
+                    },
+                    "Klein": {
+                        "Studierende": 3.20,
+                        "Mitarbeiter": 3.50,
+                        "Gäste": 5.50
+                    }
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "31"
+                ],
+                "kategorie": [
+                    "Bessere Tierhaltung",
+                    "Geflügel"
+                ]
+            },
+            "Pasta vegetarisch": {
+                "Description": "Bio-Pasta mit Thai - Gemüsepfanne",
+                "price": {
+                    "Groß": {
+                        "Studierende": 3.30,
+                        "Mitarbeiter": 3.60,
+                        "Gäste": 5.50
+                    },
+                    "Klein": {
+                        "Studierende": 2.80,
+                        "Mitarbeiter": 3.00,
+                        "Gäste": 5.00
+                    }
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "2",
+                    "4",
+                    "30",
+                    "35"
+                ],
+                "kategorie": [
+                    "Vegan"
+                ]
+            },
+            "Beilagen": {
+                "Description": [
+                    "Couscous",
+                    "Petersilienkartoffeln",
+                    "Weiße Bohnen",
+                    "Blattsalat (Radicchio, Karotten) mit Frenchdressing",
+                    "Tomatensalat mit Frühlingszwiebeln",
+                    "Grießquark mit roter Grütze",
+                    "Pfirsichjoghurt"
+                ],
+                "Price": {
+                    "Studierende": 0.80,
+                    "Mitarbeiter": 0.90,
+                    "Gäste": 1.00
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "31",
+                    "34",
+                    "36",
+                    "2",
+                    "1"
+                ],
+                "kategorie": []
+            }
+        }
+    }
+}

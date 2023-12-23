@@ -1,0 +1,744 @@
+{
+  "interactionModel": {
+    "dialog": {
+      "intents": [
+        {
+          "slots": [
+            {
+              "name": "kategorie",
+              "elicitationRequired": false,
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "Slot.Validation.622495383176.468705737970.198065944638"
+                }
+              ],
+              "type": "category",
+              "confirmationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "datum",
+              "elicitationRequired": false,
+              "type": "AMAZON.DATE",
+              "confirmationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "typ",
+              "elicitationRequired": false,
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "Slot.Validation.518247106413.476432989824.1570281541842"
+                }
+              ],
+              "type": "mealtype",
+              "confirmationRequired": false,
+              "prompts": {}
+            }
+          ],
+          "name": "mealIntent",
+          "confirmationRequired": false,
+          "prompts": {}
+        },
+        {
+          "slots": [
+            {
+              "name": "meal",
+              "elicitationRequired": true,
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "Slot.Validation.1640569327814.443559511709.862339743127"
+                }
+              ],
+              "type": "meal",
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1030406203294.1666166701523"
+              }
+            }
+          ],
+          "name": "specificMealIntent",
+          "confirmationRequired": false,
+          "prompts": {}
+        },
+        {
+          "slots": [
+            {
+              "name": "mealtype",
+              "elicitationRequired": true,
+              "type": "mealtype",
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.806309884060.676285686867"
+              }
+            },
+            {
+              "name": "inhaltsstoff",
+              "elicitationRequired": false,
+              "type": "ingredient",
+              "confirmationRequired": false,
+              "prompts": {}
+            }
+          ],
+          "name": "ingriedientsIntent",
+          "confirmationRequired": false,
+          "prompts": {}
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "halt",
+            "Stop",
+            "Abbruch"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "was",
+            "help",
+            "was kann ich machen",
+            "hilfe"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "pause",
+            "halt",
+            "stop"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "kategorie",
+              "type": "category"
+            },
+            {
+              "name": "datum",
+              "type": "AMAZON.DATE"
+            },
+            {
+              "name": "typ",
+              "type": "mealtype"
+            }
+          ],
+          "name": "mealIntent",
+          "samples": [
+            "was gibt es {datum} beim {typ}",
+            "Was gibt es {datum} bei {typ}",
+            "Ist {typ}  {kategorie}",
+            "Was gibt es zu essen",
+            "Gibt es am {datum}  {typ}",
+            "Welches Gericht gibt es {datum} bei {typ}",
+            "Welches Gericht ist {datum}  {typ}",
+            "Was gibt es beim {typ}",
+            "Was gibt es {datum} für Gerichte mit {kategorie}",
+            "Was gibt es {datum} mit {kategorie} zu essen",
+            "Nenne mir {kategorie}",
+            "Welches Gericht ist mit {kategorie}",
+            "Was gibt es {datum} für {kategorie} Gerichte",
+            "Gibt es {datum} etwas {kategorie}",
+            "Welche {kategorie} Speisen gibt es {datum} ",
+            "Was gibt es {datum} {kategorie} zu essen",
+            "Ist {kategorie} vorhanden",
+            "Gibt es {datum} {kategorie} Gerichte",
+            "Ich ernähre mich gerade {kategorie} welches Gericht empfiehlst du mir",
+            "Gibt es {datum} {kategorie} "
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "mealtype",
+              "type": "mealtype",
+              "samples": [
+                "{mealtype}"
+              ]
+            },
+            {
+              "name": "inhaltsstoff",
+              "type": "ingredient"
+            }
+          ],
+          "name": "ingriedientsIntent",
+          "samples": [
+            "Ist in dem {mealtype} {inhaltsstoff}",
+            "Welche Allergene hat {mealtype}",
+            "Was sind die Inhaltsstoffe"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "mealInformationIntent",
+          "samples": [
+            "Ist das Gericht Regional",
+            "Ist das Gericht Saisonal",
+            "Woher kommt das Fleisch",
+            "Welche Qualität hat das Fleisch"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "isOpenIntent",
+          "samples": [
+            "Wann schließt die Mensa",
+            "Wann öffnet die Mensa",
+            "Ist die Mensa offen"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "mealtype",
+              "type": "mealtype"
+            },
+            {
+              "name": "euro",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "cent",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "priceIntent",
+          "samples": [
+            "Wieviel kostet das {mealtype}",
+            "Was gibt es heute unter {euro} {cent} Euro"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "meal",
+              "type": "meal",
+              "samples": [
+                "{meal}"
+              ]
+            }
+          ],
+          "name": "specificMealIntent",
+          "samples": [
+            "Wann gibt es wieder {meal}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "fleisch"
+              },
+              "id": "10"
+            },
+            {
+              "name": {
+                "value": "bessere tierhaltung"
+              },
+              "id": "9"
+            },
+            {
+              "name": {
+                "value": "wild"
+              },
+              "id": "7"
+            },
+            {
+              "name": {
+                "value": "lamm"
+              },
+              "id": "6"
+            },
+            {
+              "name": {
+                "value": "geflügel"
+              },
+              "id": "5"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "kalb"
+                ],
+                "value": "rind"
+              },
+              "id": "4"
+            },
+            {
+              "name": {
+                "value": "schwein"
+              },
+              "id": "3"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "veganes"
+                ],
+                "value": "vegan"
+              },
+              "id": "2"
+            },
+            {
+              "name": {
+                "value": "vegetarisch"
+              },
+              "id": "1"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "meeresfrüchte"
+                ],
+                "value": "fisch"
+              },
+              "id": "8"
+            }
+          ],
+          "name": "category"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "synonyms": [
+                  "hin und weg",
+                  "hinundweg"
+                ],
+                "value": "hin\u0026weg"
+              },
+              "id": "7"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "vegetarische nudeln",
+                  "vegetarische pasta",
+                  "nudeln vegetarisch"
+                ],
+                "value": "pasta vegetarisch"
+              },
+              "id": "6"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "nudeln"
+                ],
+                "value": "pasta"
+              },
+              "id": "5"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "beilage"
+                ],
+                "value": "beilagen"
+              },
+              "id": "4"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "currywurst"
+                ],
+                "value": "köriwerk"
+              },
+              "id": "3"
+            },
+            {
+              "name": {
+                "value": "kombinierbar"
+              },
+              "id": "2"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "seezeitteller",
+                  "seezeit teller"
+                ],
+                "value": "seezeit-teller"
+              },
+              "id": "1"
+            }
+          ],
+          "name": "mealtype"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "weizen"
+              },
+              "id": "25a"
+            },
+            {
+              "name": {
+                "value": "roggen"
+              },
+              "id": "25b"
+            },
+            {
+              "name": {
+                "value": "gerste"
+              },
+              "id": "25c"
+            },
+            {
+              "name": {
+                "value": "dinkel"
+              },
+              "id": "25d"
+            },
+            {
+              "name": {
+                "value": "hafer"
+              },
+              "id": "25e"
+            },
+            {
+              "name": {
+                "value": "kamut"
+              },
+              "id": "25f"
+            },
+            {
+              "name": {
+                "value": "fisch"
+              },
+              "id": "26"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "krustentiere",
+                  "schalentiere"
+                ],
+                "value": "krebstiere"
+              },
+              "id": "27"
+            },
+            {
+              "name": {
+                "value": "ei"
+              },
+              "id": "28"
+            },
+            {
+              "name": {
+                "value": "erdnüsse"
+              },
+              "id": "29"
+            },
+            {
+              "name": {
+                "value": "soja"
+              },
+              "id": "30"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "laktose"
+                ],
+                "value": "milch"
+              },
+              "id": "31"
+            },
+            {
+              "name": {
+                "value": "mandeln"
+              },
+              "id": "32a"
+            },
+            {
+              "name": {
+                "value": "queenslandnüsse"
+              },
+              "id": "32b"
+            },
+            {
+              "name": {
+                "value": "haselnüsse"
+              },
+              "id": "32c"
+            },
+            {
+              "name": {
+                "value": "pecannüsse"
+              },
+              "id": "32d"
+            },
+            {
+              "name": {
+                "value": "paranüsse"
+              },
+              "id": "32e"
+            },
+            {
+              "name": {
+                "value": "macadamianüsse"
+              },
+              "id": "32f"
+            },
+            {
+              "name": {
+                "value": "kaschünüsse"
+              },
+              "id": "32g"
+            },
+            {
+              "name": {
+                "value": "walnüsse"
+              },
+              "id": "32h"
+            },
+            {
+              "name": {
+                "value": "pistazien"
+              },
+              "id": "32i"
+            },
+            {
+              "name": {
+                "value": "sellerie"
+              },
+              "id": "33"
+            },
+            {
+              "name": {
+                "value": "senf"
+              },
+              "id": "34"
+            },
+            {
+              "name": {
+                "value": "sesam"
+              },
+              "id": "35"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "sulfite"
+                ],
+                "value": "schwefeldioxid"
+              },
+              "id": "36"
+            },
+            {
+              "name": {
+                "value": "lupine"
+              },
+              "id": "37"
+            },
+            {
+              "name": {
+                "value": "weichtiere"
+              },
+              "id": "38"
+            },
+            {
+              "name": {
+                "value": "farbstoffen"
+              },
+              "id": "1"
+            },
+            {
+              "name": {
+                "value": "konservierungsstoffen"
+              },
+              "id": "2"
+            },
+            {
+              "name": {
+                "value": "antioxidationsmittel"
+              },
+              "id": "3"
+            },
+            {
+              "name": {
+                "value": "geschmacksverstärker"
+              },
+              "id": "4"
+            },
+            {
+              "name": {
+                "value": "geschwefelt"
+              },
+              "id": "5"
+            },
+            {
+              "name": {
+                "value": "geschwärzt"
+              },
+              "id": "6"
+            },
+            {
+              "name": {
+                "value": "gewachst"
+              },
+              "id": "7"
+            },
+            {
+              "name": {
+                "value": "phosphat"
+              },
+              "id": "8"
+            },
+            {
+              "name": {
+                "value": "süßungsmitteln"
+              },
+              "id": "9"
+            },
+            {
+              "name": {
+                "value": "phenylalaninquelle"
+              },
+              "id": "10"
+            },
+            {
+              "name": {
+                "value": "genetisch verändert"
+              },
+              "id": "11"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "genetisch verändertem soja"
+                ],
+                "value": "sojaöl"
+              },
+              "id": "12"
+            }
+          ],
+          "name": "ingredient"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "schnitzel"
+              },
+              "id": "1"
+            }
+          ],
+          "name": "meal"
+        }
+      ],
+      "invocationName": "h. t. w. g. mensa plan"
+    },
+    "prompts": [
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Welche Kategorie?"
+          }
+        ],
+        "id": "Elicit.Slot.1425329192565.614145689114"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Die Kategorie {kategorie} gibt es leider nicht, welche meinst du?"
+          }
+        ],
+        "id": "Slot.Validation.622495383176.468705737970.198065944638"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Dieses Gericht ist mir nicht bekannt."
+          }
+        ],
+        "id": "Slot.Validation.1640569327814.443559511709.862339743127"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Welches Gericht meinst du?"
+          }
+        ],
+        "id": "Elicit.Slot.806309884060.676285686867"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Welches Gericht"
+          }
+        ],
+        "id": "Elicit.Slot.1030406203294.1666166701523"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "{kategorie} Essen des {typ} . Stimmt das?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Essen beim {typ} . Stimmt das?"
+          },
+          {
+            "type": "PlainText",
+            "value": "{kategorie} Essen. Stimmt das?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Essen vom {datum} . Stimmt das?"
+          },
+          {
+            "type": "PlainText",
+            "value": "{kategorie} Essen vom {datum} . Stimmt das?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Essen vom {datum}  und des {typ} . Stimmt das?"
+          },
+          {
+            "type": "PlainText",
+            "value": "{kategorie} Essen vom {datum}  und des {typ} . Stimmt das?"
+          }
+        ],
+        "id": "Confirm.Intent.927627706178"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Den Typ {kategorie} gibt es leider nicht, welchen meinst du?"
+          }
+        ],
+        "id": "Slot.Validation.518247106413.476432989824.1570281541842"
+      }
+    ]
+  }
+}

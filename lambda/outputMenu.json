@@ -1,0 +1,1050 @@
+{
+    "menus": {
+        "2023-12-11": {
+            "seezeit-teller": {
+                "description": "gemüsepfanne mit pflanzlichem kebab zitronendip und vollkornreis dazu schokoladenpudding",
+                "price": {
+                    "Studierende": 3.5,
+                    "Mitarbeiter": 4.7,
+                    "Gäste": 6.7
+                },
+                "inhaltsstoffe": [
+                    "paprika",
+                    "brokkoli",
+                    "karotte",
+                    "3",
+                    "30",
+                    "34"
+                ],
+                "kategorie": [
+                    "vegan"
+                ]
+            },
+            "hin&weg": {
+                "description": "pflanzliche hackbällchen mit ratatouille-kartoffelpfanne",
+                "price": {
+                    "Studierende": 2.9,
+                    "Mitarbeiter": 4.2,
+                    "Gäste": 6.2
+                },
+                "inhaltsstoffe": [
+                    "30",
+                    "2"
+                ],
+                "kategorie": [
+                    "vegan"
+                ]
+            },
+            "kombinierbar": {
+                "description": "gyrosgeschnetzeltes mit tzatziki",
+                "price": {
+                    "Studierende": 1.9,
+                    "Mitarbeiter": 2.8,
+                    "Gäste": 4.2
+                },
+                "inhaltsstoffe": [
+                    "33",
+                    "34",
+                    "31"
+                ],
+                "kategorie": [
+                    "bessere tierhaltung",
+                    "schwein"
+                ]
+            },
+            "kœriwerk®": {
+                "description": "köriwerk",
+                "price": {
+                    "Studierende": 3.5,
+                    "Mitarbeiter": 3.9,
+                    "Gäste": 4.3
+                },
+                "inhaltsstoffe": [],
+                "kategorie": []
+            },
+            "beilagen": {
+                "description": [
+                    "vollkornreis",
+                    "würzige backkartoffeln",
+                    "kaisergemüse",
+                    "blattsalat mit kräuter-joghurtdressing",
+                    "hirtensalat",
+                    "schokoladenpudding",
+                    "apfel zimt quark"
+                ],
+                "price": {
+                    "Studierende": 0.8,
+                    "Mitarbeiter": 0.9,
+                    "Gäste": 1
+                },
+                "inhaltsstoffe": [
+                    "radicchio",
+                    "karotten",
+                    "31",
+                    "36",
+                    "tomate",
+                    "gurke",
+                    "feta",
+                    "3",
+                    "6"
+                ],
+                "kategorie": []
+            }
+        },
+        "2023-12-12": {
+            "seezeit-teller": {
+                "description": "pilz ravioli mit rahmwirsing dazu rohkostsalat",
+                "price": {
+                    "Studierende": 3.5,
+                    "Mitarbeiter": 4.7,
+                    "Gäste": 6.7
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "28",
+                    "31",
+                    "zucchini",
+                    "paprika",
+                    "zwiebeln",
+                    "tomatendressing",
+                    "36"
+                ],
+                "kategorie": [
+                    "vegetarisch"
+                ]
+            },
+            "hin&weg": {
+                "description": "asiatische gemüsepfanne mit kräuterreis",
+                "price": {
+                    "Studierende": 2.9,
+                    "Mitarbeiter": 4.2,
+                    "Gäste": 6.2
+                },
+                "inhaltsstoffe": [
+                    "2",
+                    "4",
+                    "25a",
+                    "30",
+                    "35"
+                ],
+                "kategorie": [
+                    "vegan"
+                ]
+            },
+            "kombinierbar": {
+                "description": "fleischkäse mit röstzwiebeln und dunkler soße",
+                "price": {
+                    "Studierende": 1.9,
+                    "Mitarbeiter": 2.8,
+                    "Gäste": 4.2
+                },
+                "inhaltsstoffe": [
+                    "1",
+                    "2",
+                    "3",
+                    "8",
+                    "25a",
+                    "33",
+                    "34"
+                ],
+                "kategorie": [
+                    "schwein",
+                    "rind"
+                ]
+            },
+            "pasta": {
+                "description": "bio-pasta mit bolognese",
+                "price": {
+                    "Studierende": null,
+                    "Mitarbeiter": 3.5,
+                    "GästeKlein:3,20": 6,
+                    "Gäste": 5.5
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "33",
+                    "34"
+                ],
+                "kategorie": [
+                    "bessere tierhaltung",
+                    "rind"
+                ]
+            },
+            "pasta vegetarisch": {
+                "description": "bio-pasta mit kürbisgulasch",
+                "price": {
+                    "Studierende": null,
+                    "Mitarbeiter": 3,
+                    "GästeKlein:2,80": 5.5,
+                    "Gäste": 5
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "33",
+                    "34"
+                ],
+                "kategorie": [
+                    "vegan"
+                ]
+            },
+            "beilagen": {
+                "description": [
+                    "kartoffelpüree",
+                    "kroketten",
+                    "wintergemüse",
+                    "blattsalat mit kräuterdressing",
+                    "rohkostsalat",
+                    "kirschquark mit schokostreusel"
+                ],
+                "price": {
+                    "Studierende": 0.8,
+                    "Mitarbeiter": 0.9,
+                    "Gäste": 1
+                },
+                "inhaltsstoffe": [
+                    "31",
+                    "1",
+                    "25a",
+                    "30",
+                    "kürbis",
+                    "lauch",
+                    "rosenkohl",
+                    "radicchio",
+                    "karotten",
+                    "34",
+                    "36",
+                    "zucchini",
+                    "paprika",
+                    "zwiebeln",
+                    "tomatendressing"
+                ],
+                "kategorie": []
+            }
+        },
+        "2023-12-13": {
+            "seezeit-teller": {
+                "description": "bami goreng mit bio rindfleisch und mie-nudeln dazu frischobst",
+                "price": {
+                    "Studierende": 3.5,
+                    "Mitarbeiter": 4.7,
+                    "Gäste": 6.7
+                },
+                "inhaltsstoffe": [
+                    "shitake",
+                    "paprika",
+                    "weißkraut",
+                    "2",
+                    "34",
+                    "25a",
+                    "28",
+                    "35"
+                ],
+                "kategorie": [
+                    "bessere tierhaltung",
+                    "rind"
+                ]
+            },
+            "hin&weg": {
+                "description": "spanische bratkartoffeln mit mojo verde",
+                "price": {
+                    "Studierende": 2.9,
+                    "Mitarbeiter": 4.2,
+                    "Gäste": 6.2
+                },
+                "inhaltsstoffe": [
+                    "paprika",
+                    "tomate",
+                    "olive",
+                    "6",
+                    "36"
+                ],
+                "kategorie": [
+                    "vegan"
+                ]
+            },
+            "kombinierbar": {
+                "description": "gebackener camembert mit preiselbeer-apfel-mandel dip",
+                "price": {
+                    "Studierende": 1.8,
+                    "Mitarbeiter": 2.6,
+                    "Gäste": 3.8
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "31",
+                    "32a"
+                ],
+                "kategorie": [
+                    "vegetarisch"
+                ]
+            },
+            "kœriwerk®": {
+                "description": "köriwerk",
+                "price": {
+                    "Studierende": 3.5,
+                    "Mitarbeiter": 3.9,
+                    "Gäste": 4.3
+                },
+                "inhaltsstoffe": [],
+                "kategorie": []
+            },
+            "beilagen": {
+                "description": [
+                    "würzige backkartoffeln",
+                    "pommes frites",
+                    "zucchini-maisgemüse",
+                    "blattsalat mit kräuter-joghurt-dressing",
+                    "gurkensalat",
+                    "ananasjoghurt",
+                    "kirschquark mit schokostreusel"
+                ],
+                "price": {
+                    "Studierende": 0.8,
+                    "Mitarbeiter": 0.9,
+                    "Gäste": 1
+                },
+                "inhaltsstoffe": [
+                    "31",
+                    "36",
+                    "30",
+                    "32c"
+                ],
+                "kategorie": []
+            }
+        },
+        "2023-12-14": {
+            "seezeit-teller": {
+                "description": "gebratene süßkartoffel-gnocchi mit tomatensugo spinat und salbei dazu blattsalat mit kräuterdressing",
+                "price": {
+                    "Studierende": 3.5,
+                    "Mitarbeiter": 4.7,
+                    "Gäste": 6.7
+                },
+                "inhaltsstoffe": [
+                    "34",
+                    "36"
+                ],
+                "kategorie": [
+                    "vegan"
+                ]
+            },
+            "hin&weg": {
+                "description": "auberginen-zucchini-lasagne mit tomaten-basilikumsauce",
+                "price": {
+                    "Studierende": 2.9,
+                    "Mitarbeiter": 4.2,
+                    "Gäste": 6.2
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "28",
+                    "31",
+                    "33",
+                    "34"
+                ],
+                "kategorie": [
+                    "vegetarisch"
+                ]
+            },
+            "kombinierbar": {
+                "description": "putengeschnetzeltes thailändische art",
+                "price": {
+                    "Studierende": 1.9,
+                    "Mitarbeiter": 2.8,
+                    "Gäste": 4.2
+                },
+                "inhaltsstoffe": [],
+                "kategorie": [
+                    "bessere tierhaltung",
+                    "geflügel"
+                ]
+            },
+            "pasta": {
+                "description": "bio-pasta mit limetten-kokos-pute",
+                "price": {
+                    "Studierende": null,
+                    "Mitarbeiter": 3.5,
+                    "GästeKlein:3,20": 6,
+                    "Gäste": 5.5
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "2",
+                    "4",
+                    "30",
+                    "33",
+                    "34",
+                    "36"
+                ],
+                "kategorie": [
+                    "bessere tierhaltung",
+                    "geflügel"
+                ]
+            },
+            "pasta vegetarisch": {
+                "description": "bio-pasta mit linsen gemüse chili",
+                "price": {
+                    "Studierende": null,
+                    "Mitarbeiter": 3,
+                    "GästeKlein:2,80": 5.5,
+                    "Gäste": 5
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "33",
+                    "34"
+                ],
+                "kategorie": [
+                    "vegan"
+                ]
+            },
+            "beilagen": {
+                "description": [
+                    "mie-nudeln",
+                    "basmatireis",
+                    "mischgemüse",
+                    "blattsalat mit kräuterdressing",
+                    "rohkostsalat",
+                    "karamellpudding",
+                    "ananasjoghurt"
+                ],
+                "price": {
+                    "Studierende": 0.8,
+                    "Mitarbeiter": 0.9,
+                    "Gäste": 1
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "28",
+                    "35",
+                    "34",
+                    "36",
+                    "karotten",
+                    "zucchini",
+                    "rettich",
+                    "kräuterdressing",
+                    "31"
+                ],
+                "kategorie": []
+            }
+        },
+        "2023-12-15": {
+            "seezeit-teller": {
+                "description": "seelachs-filetstücke in backteig mit remouladensauce und kartoffelpfanne dazu rohkostsalat",
+                "price": {
+                    "Studierende": 3.5,
+                    "Mitarbeiter": 4.7,
+                    "Gäste": 6.7
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "26",
+                    "31",
+                    "34",
+                    "1",
+                    "9",
+                    "kürbis",
+                    "karotte",
+                    "lauch",
+                    "apfel",
+                    "sellerie",
+                    "3",
+                    "33",
+                    "36"
+                ],
+                "kategorie": [
+                    "bessere tierhaltung",
+                    "fisch"
+                ]
+            },
+            "hin&weg": {
+                "description": "spätzle mit pilzragout",
+                "price": {
+                    "Studierende": 2.9,
+                    "Mitarbeiter": 4.2,
+                    "Gäste": 6.2
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "stein-",
+                    "austern-",
+                    "shitakepilzen",
+                    "25e",
+                    "33",
+                    "34"
+                ],
+                "kategorie": [
+                    "vegan"
+                ]
+            },
+            "kombinierbar": {
+                "description": "kohlroulade mit zwiebelsauce",
+                "price": {
+                    "Studierende": 1.8,
+                    "Mitarbeiter": 2.6,
+                    "Gäste": 3.8
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "25d",
+                    "28",
+                    "30",
+                    "34"
+                ],
+                "kategorie": [
+                    "vegetarisch"
+                ]
+            },
+            "kœriwerk®": {
+                "description": "köriwerk",
+                "price": {
+                    "Studierende": 3.5,
+                    "Mitarbeiter": 3.9,
+                    "Gäste": 4.3
+                },
+                "inhaltsstoffe": [],
+                "kategorie": []
+            },
+            "beilagen": {
+                "description": [
+                    "spätzle",
+                    "bratkartoffeln",
+                    "schwarzwurzel-pilz gemüse",
+                    "blattsalat mit senfdressing",
+                    "rohkostsalat",
+                    "griechischer joghurt mit honig",
+                    "karamellpudding"
+                ],
+                "price": {
+                    "Studierende": 0.8,
+                    "Mitarbeiter": 0.9,
+                    "Gäste": 1
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "34",
+                    "36",
+                    "karotte",
+                    "apfel",
+                    "sellerie",
+                    "3",
+                    "33",
+                    "31"
+                ],
+                "kategorie": []
+            }
+        },
+        "2023-12-18": {
+            "seezeit-teller": {
+                "description": "blumenkohlcurry mit cashewkernen und basmatireis dazu rohkostsalat",
+                "price": {
+                    "Studierende": 3.5,
+                    "Mitarbeiter": 4.7,
+                    "Gäste": 6.7
+                },
+                "inhaltsstoffe": [
+                    "25e",
+                    "32g",
+                    "33",
+                    "34",
+                    "gurke",
+                    "karotte",
+                    "radieschen",
+                    "36"
+                ],
+                "kategorie": [
+                    "vegan"
+                ]
+            },
+            "hin&weg": {
+                "description": "schupfnudeln mit sauerkraut",
+                "price": {
+                    "Studierende": 2.9,
+                    "Mitarbeiter": 4.2,
+                    "Gäste": 6.2
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "33",
+                    "34"
+                ],
+                "kategorie": [
+                    "vegan"
+                ]
+            },
+            "kombinierbar": {
+                "description": "drei rindfleisch-maultaschen mit schmelzzwiebeln",
+                "price": {
+                    "Studierende": 1.9,
+                    "Mitarbeiter": 2.8,
+                    "Gäste": 4.2
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "25e",
+                    "28",
+                    "33"
+                ],
+                "kategorie": [
+                    "rind"
+                ]
+            },
+            "kœriwerk®": {
+                "description": "köriwerk",
+                "price": {
+                    "Studierende": 3.5,
+                    "Mitarbeiter": 3.9,
+                    "Gäste": 4.3
+                },
+                "inhaltsstoffe": [],
+                "kategorie": []
+            },
+            "beilagen": {
+                "description": [
+                    "kartoffel-gurken-salat",
+                    "pommes frites",
+                    "mischgemüse",
+                    "blattsalat mit balsamicodressing",
+                    "rohkostsalat",
+                    "bayrisch creme mit roter grütze",
+                    "griechischer joghurt mit honig"
+                ],
+                "price": {
+                    "Studierende": 0.8,
+                    "Mitarbeiter": 0.9,
+                    "Gäste": 1
+                },
+                "inhaltsstoffe": [
+                    "33",
+                    "34",
+                    "kraut",
+                    "radicchio",
+                    "36",
+                    "gurke",
+                    "karotte",
+                    "radieschen",
+                    "28",
+                    "31"
+                ],
+                "kategorie": []
+            }
+        },
+        "2023-12-19": {
+            "seezeit-teller": {
+                "description": "cordon bleu vom schwein mit champignon-rahmgemüse und spätzle dazu blattsalat mit kräuterdressing",
+                "price": {
+                    "Studierende": 3.5,
+                    "Mitarbeiter": 4.7,
+                    "Gäste": 6.7
+                },
+                "inhaltsstoffe": [
+                    "2",
+                    "3",
+                    "25a",
+                    "31",
+                    "25d",
+                    "28",
+                    "kraut",
+                    "radicchio",
+                    "34",
+                    "36"
+                ],
+                "kategorie": [
+                    "schwein"
+                ]
+            },
+            "hin&weg": {
+                "description": "mexikanische kartoffelpfanne mit mojo verde",
+                "price": {
+                    "Studierende": 2.9,
+                    "Mitarbeiter": 4.2,
+                    "Gäste": 6.2
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "36"
+                ],
+                "kategorie": [
+                    "vegan"
+                ]
+            },
+            "kombinierbar": {
+                "description": "zwei linsenbratlinge mit kräuter sour cream",
+                "price": {
+                    "Studierende": 1.8,
+                    "Mitarbeiter": 2.6,
+                    "Gäste": 3.8
+                },
+                "inhaltsstoffe": [
+                    "25e"
+                ],
+                "kategorie": [
+                    "vegan"
+                ]
+            },
+            "pasta": {
+                "description": "bio-pasta mit salbei-basilikumsauce und räucherspeck",
+                "price": {
+                    "Studierende": null,
+                    "Mitarbeiter": 3.5,
+                    "GästeKlein:3,20": 6,
+                    "Gäste": 5.5
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "2",
+                    "3",
+                    "31",
+                    "34"
+                ],
+                "kategorie": [
+                    "bessere tierhaltung",
+                    "schwein"
+                ]
+            },
+            "pasta vegetarisch": {
+                "description": "bio-pasta mit provenzalische tomatensauce",
+                "price": {
+                    "Studierende": null,
+                    "Mitarbeiter": 3,
+                    "GästeKlein:2,80": 5.5,
+                    "Gäste": 5
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "2",
+                    "34"
+                ],
+                "kategorie": [
+                    "vegan"
+                ]
+            },
+            "beilagen": {
+                "description": [
+                    "potato wedges",
+                    "penne",
+                    "brokkoli",
+                    "blattsalat mit kräuterdressing",
+                    "karottensalat",
+                    "erdbeerpudding",
+                    "bayrisch creme mit roter grütze"
+                ],
+                "price": {
+                    "Studierende": 0.8,
+                    "Mitarbeiter": 0.9,
+                    "Gäste": 1
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "kraut",
+                    "radicchio",
+                    "34",
+                    "36",
+                    "1",
+                    "2",
+                    "31",
+                    "28"
+                ],
+                "kategorie": []
+            }
+        },
+        "2023-12-20": {
+            "seezeit-teller": {
+                "description": "cannelloni überbacken mit ricotta-spinatfüllung und tomatensauce dazu himbeerquark",
+                "price": {
+                    "Studierende": 3.5,
+                    "Mitarbeiter": 4.7,
+                    "Gäste": 6.7
+                },
+                "inhaltsstoffe": [
+                    "3",
+                    "25a",
+                    "28",
+                    "31",
+                    "33"
+                ],
+                "kategorie": [
+                    "vegetarisch"
+                ]
+            },
+            "hin&weg": {
+                "description": "bio-tofu-pfanne mit austernpilzen erbsen und sojasauce dazu basmatireis",
+                "price": {
+                    "Studierende": 2.9,
+                    "Mitarbeiter": 4.2,
+                    "Gäste": 6.2
+                },
+                "inhaltsstoffe": [
+                    "2",
+                    "4",
+                    "25a",
+                    "30",
+                    "34"
+                ],
+                "kategorie": [
+                    "vegan"
+                ]
+            },
+            "kombinierbar": {
+                "description": "provenzalisch marinierte hähnchenbrust mit oliven-rosmarinsauce",
+                "price": {
+                    "Studierende": 1.9,
+                    "Mitarbeiter": 2.8,
+                    "Gäste": 4.2
+                },
+                "inhaltsstoffe": [
+                    "19",
+                    "30",
+                    "36",
+                    "6"
+                ],
+                "kategorie": [
+                    "geflügel"
+                ]
+            },
+            "kœriwerk®": {
+                "description": "köriwerk",
+                "price": {
+                    "Studierende": 3.5,
+                    "Mitarbeiter": 3.9,
+                    "Gäste": 4.3
+                },
+                "inhaltsstoffe": [],
+                "kategorie": []
+            },
+            "beilagen": {
+                "description": [
+                    "rosmarinkartoffeln",
+                    "spätzle",
+                    "kürbisragout",
+                    "blattsalat mit balsamicodressing",
+                    "tomatensalat mit frühlingszwiebeln",
+                    "himbeerquark",
+                    "erdbeerpudding"
+                ],
+                "price": {
+                    "Studierende": 0.8,
+                    "Mitarbeiter": 0.9,
+                    "Gäste": 1
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "25d",
+                    "28",
+                    "33",
+                    "34",
+                    "radicchio",
+                    "karotten",
+                    "36",
+                    "31",
+                    "1",
+                    "2"
+                ],
+                "kategorie": []
+            }
+        },
+        "2023-12-21": {
+            "seezeit-teller": {
+                "description": "kalbsgulasch mit champignons zwiebeln und kartoffelpüree dazu rohkostsalat",
+                "price": {
+                    "Studierende": 3.5,
+                    "Mitarbeiter": 4.7,
+                    "Gäste": 6.7
+                },
+                "inhaltsstoffe": [
+                    "31",
+                    "karotte",
+                    "lauch",
+                    "sellerie",
+                    "33",
+                    "36"
+                ],
+                "kategorie": [
+                    "rind"
+                ]
+            },
+            "hin&weg": {
+                "description": "geschlossen",
+                "price": {
+                    "Studierende": 2.9,
+                    "Mitarbeiter": 4.2,
+                    "Gäste": 6.2
+                },
+                "inhaltsstoffe": [],
+                "kategorie": []
+            },
+            "kombinierbar": {
+                "description": "mini samosas mit ananas-kurkuma chutney",
+                "price": {
+                    "Studierende": 1.8,
+                    "Mitarbeiter": 2.6,
+                    "Gäste": 3.8
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "33",
+                    "34",
+                    "3",
+                    "36"
+                ],
+                "kategorie": [
+                    "vegan"
+                ]
+            },
+            "pasta": {
+                "description": "bio-pasta mit salbei-basilikumsauce und räucherspeck",
+                "price": {
+                    "Studierende": null,
+                    "Mitarbeiter": 3.5,
+                    "GästeKlein:3,20": 6,
+                    "Gäste": 5.5
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "2",
+                    "3",
+                    "31",
+                    "34"
+                ],
+                "kategorie": [
+                    "bessere tierhaltung",
+                    "schwein"
+                ]
+            },
+            "pasta vegetarisch": {
+                "description": "bio-pasta mit provenzalische tomatensauce",
+                "price": {
+                    "Studierende": null,
+                    "Mitarbeiter": 3,
+                    "GästeKlein:2,80": 5.5,
+                    "Gäste": 5
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "2",
+                    "34"
+                ],
+                "kategorie": [
+                    "vegan"
+                ]
+            },
+            "beilagen": {
+                "description": [
+                    "gemüsecouscous",
+                    "reis",
+                    "indisches gemüse",
+                    "blattsalat mit kräuterdressing",
+                    "rohkostsalat",
+                    "kirschjoghurt",
+                    "himbeerquark"
+                ],
+                "price": {
+                    "Studierende": 0.8,
+                    "Mitarbeiter": 0.9,
+                    "Gäste": 1
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "33",
+                    "34",
+                    "3",
+                    "36",
+                    "radicchio",
+                    "karotten",
+                    "karotte",
+                    "lauch",
+                    "sellerie",
+                    "31"
+                ],
+                "kategorie": []
+            }
+        },
+        "2023-12-22": {
+            "seezeit-teller": {
+                "description": "lachsragout mit vollkornreis dazu frischobst",
+                "price": {
+                    "Studierende": 3.5,
+                    "Mitarbeiter": 4.7,
+                    "Gäste": 6.7
+                },
+                "inhaltsstoffe": [
+                    "kicherebse",
+                    "kürbis",
+                    "lauch",
+                    "26",
+                    "31"
+                ],
+                "kategorie": [
+                    "bessere tierhaltung",
+                    "fisch"
+                ]
+            },
+            "hin&weg": {
+                "description": "geschlossen",
+                "price": {
+                    "Studierende": 2.9,
+                    "Mitarbeiter": 4.2,
+                    "Gäste": 6.2
+                },
+                "inhaltsstoffe": [],
+                "kategorie": []
+            },
+            "kombinierbar": {
+                "description": "brokkolinuggets mit kräuterdip",
+                "price": {
+                    "Studierende": 1.8,
+                    "Mitarbeiter": 2.6,
+                    "Gäste": 3.8
+                },
+                "inhaltsstoffe": [
+                    "25a",
+                    "25c",
+                    "28",
+                    "30",
+                    "31",
+                    "33"
+                ],
+                "kategorie": [
+                    "vegetarisch"
+                ]
+            },
+            "kœriwerk®": {
+                "description": "köriwerk",
+                "price": {
+                    "Studierende": 3.5,
+                    "Mitarbeiter": 3.9,
+                    "Gäste": 4.3
+                },
+                "inhaltsstoffe": [],
+                "kategorie": []
+            },
+            "beilagen": {
+                "description": [
+                    "kroketten",
+                    "kräuterkartoffeln",
+                    "kaisergemüse",
+                    "blattsalat mit frenchdressing",
+                    "gurkensalat",
+                    "mousse au chocolat",
+                    "himbeerquark"
+                ],
+                "price": {
+                    "Studierende": 0.8,
+                    "Mitarbeiter": 0.9,
+                    "Gäste": 1
+                },
+                "inhaltsstoffe": [
+                    "1",
+                    "25a",
+                    "30",
+                    "31",
+                    "radicchio",
+                    "karotten",
+                    "34",
+                    "36"
+                ],
+                "kategorie": []
+            }
+        }
+    }
+}
